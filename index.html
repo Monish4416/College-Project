@@ -16,7 +16,7 @@
 </head>
 
 <body>
-
+  <div id="preloader"></div>
   <section class="header">
     <nav>
       <a href="index.html"><img src="logo.png"></a>
@@ -197,7 +197,14 @@
       Copyright &copy; 2032 www.Eduford.com - All rights reserved
     </p>
   </footer>
+  <script>
 
+var loader = document.getElementById("preloader");
+window.addEventListener("load",function(){
+  loader.style.display = "none"
+})
+
+  </script>
 </body>
 
 </html>
