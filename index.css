@@ -5,7 +5,14 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
-
+#preloader{
+    background: white url(loader.gif) no-repeat center center;
+    height: 100vh;
+    background-size: 15%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
 .header {
     min-height: 100vh;
     width: 100%;
